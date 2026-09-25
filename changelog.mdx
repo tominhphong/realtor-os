@@ -12,6 +12,35 @@ keywords: [changelog, history, releases, content-drops, sprint-log]
 
 Append-only log of significant changes. Newest entries first. Source of truth for what shipped when.
 
+## 2026-09-25 — Rename: site, Dashboard project and GitHub repo
+
+Aligned the name across all three places.
+
+| Where | Old | New |
+| --- | --- | --- |
+| Site name (`documentation.json`) | Realtor OS Wiki | **Realtor OS** |
+| Dashboard project | Realtor OS | Realtor OS (unchanged) |
+| GitHub repo | `documentationai-guide` | **`realtor-os`** |
+
+**Kept:** site URL `realtor-os.documentationai.com` (existing links and the Reader MCP connector depend on it).
+
+**Verification:** first publish after the repo rename (commit `c1b8003`) landed on the renamed repo, so the Git connection still works.
+
+**Note:** the Authoring MCP rewrote `documentation.json` in canonical 2-space form (inline objects expanded). Content is unchanged.
+
+---
+
+## 2026-04-26 — Books group (12 pages) + Knowledge Base drop-zone
+
+**Added:**
+
+- `books/` group, 12 pages: Hormozi ($100M Offers, $100M Leads, Pricing Playbook, Ad Framework #2 and #3, New vs Old adaptations) and Brunson (DotCom Secrets, Traffic Secrets, Backyard Breakthrough Blueprint, Lead Magnet & Squeeze Page)
+- `knowledge-base/documents.mdx` — documents drop-zone page
+
+**Commit:** `a9fbcae`.
+
+---
+
 ## 2026-04-26 — Sprint: Runtime Assets (4 pages)
 
 Documented upstream runtime artifacts (config files, templates, shell scripts) AS-IS.

@@ -28,7 +28,8 @@
                 "path": "quickstart",
                 "icon": "play"
               }
-            ]
+            ],
+            "public": true
           },
           {
             "group": "Framework",
@@ -58,7 +59,8 @@
                 "title": "Desktop Setup",
                 "path": "framework/desktop-setup"
               }
-            ]
+            ],
+            "public": true
           },
           {
             "group": "Core Rules",
@@ -80,7 +82,8 @@
                 "title": "Python Conventions",
                 "path": "core-rules/python-conventions"
               }
-            ]
+            ],
+            "public": true
           },
           {
             "group": "Workflows",
@@ -106,7 +109,8 @@
                 "title": "Customer Response Flow",
                 "path": "workflows/customer-response-flow"
               }
-            ]
+            ],
+            "public": true
           },
           {
             "group": "Agent Instructions",
@@ -148,7 +152,8 @@
                 "title": "CRM Agent",
                 "path": "agent-instructions/crm-agent"
               }
-            ]
+            ],
+            "public": true
           },
           {
             "group": "MCP Tools",
@@ -178,7 +183,8 @@
                 "title": "Guide",
                 "path": "mcp-tools/guide"
               }
-            ]
+            ],
+            "public": true
           },
           {
             "group": "Python Tools",
@@ -208,7 +214,8 @@
                 "title": "Guide Tools",
                 "path": "python-tools/guide-tools"
               }
-            ]
+            ],
+            "public": true
           },
           {
             "group": "Frameworks",
@@ -226,7 +233,8 @@
                 "title": "Channel Junkies Hooks",
                 "path": "frameworks/channel-junkies-hooks"
               }
-            ]
+            ],
+            "public": true
           },
           {
             "group": "Knowledge QA",
@@ -248,7 +256,8 @@
                 "title": "MDX Gotchas",
                 "path": "knowledge-qa/mdx-gotchas"
               }
-            ]
+            ],
+            "public": true
           },
           {
             "group": "Runtime Assets",
@@ -270,7 +279,8 @@
                 "title": "Setup Scripts",
                 "path": "runtime-assets/setup-scripts"
               }
-            ]
+            ],
+            "public": true
           },
           {
             "group": "Knowledge Base",
@@ -280,7 +290,8 @@
                 "title": "Documents Drop-Zone",
                 "path": "knowledge-base/documents"
               }
-            ]
+            ],
+            "public": true
           },
           {
             "group": "Books",
@@ -334,7 +345,8 @@
                 "title": "Lead Magnet & Squeeze Page — Brunson adapt",
                 "path": "books/brunson-lead-magnet-squeeze"
               }
-            ]
+            ],
+            "public": false
           },
           {
             "group": "Help Center",
@@ -352,7 +364,8 @@
                 "title": "FAQ",
                 "path": "help-center/faq"
               }
-            ]
+            ],
+            "public": true
           },
           {
             "group": "Meta",
@@ -363,7 +376,8 @@
                 "path": "changelog",
                 "icon": "history"
               }
-            ]
+            ],
+            "public": true
           }
         ]
       }
